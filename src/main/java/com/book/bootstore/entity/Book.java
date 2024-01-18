@@ -28,7 +28,7 @@ public class Book {
     private String publisher;
 
     @Column(unique = true)
-    private String bootImg;
+    private String bookImg;
 
     @Enumerated(EnumType.STRING)
     private BookStatus bookStatus;

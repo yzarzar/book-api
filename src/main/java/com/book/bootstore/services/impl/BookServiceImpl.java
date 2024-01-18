@@ -45,7 +45,7 @@ public class BookServiceImpl implements BookService{
             updateBook.setTitle(book.getTitle());
             updateBook.setPrice(book.getPrice());
             updateBook.setYearPublished(book.getYearPublished());
-            updateBook.setBootImg(book.getBootImg());
+            updateBook.setBookImg(book.getBookImg());
             updateBook.setBookStatus(book.getBookStatus());
             updateBook.setAuthor(book.getAuthor());
             updateBook.setCategory(book.getCategory());
